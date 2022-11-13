@@ -189,14 +189,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .contact-link:hover, .contact-link:focus, .contact-link:active {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
-.icon-mail:hover, .icon-smartphone:hover {
+/* .icon-mail:hover, .icon-smartphone:hover {
     stroke: var(--accent-color);
     color: var(--accent-color);
     fill: var(--accent-color);
     /* background-color: var(--accent-color); */
-}
+} */
 
 .icon-mail, .icon-smartphone {
 
@@ -454,6 +455,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team-social-list {
     padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icon-button {
@@ -494,7 +497,26 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .social-icon-team {
-    fill: #AFB1B8;
+    fill: currentColor;
+}
+
+.footer-social-icon {
+    fill: #FFFFFF;
+}
+
+.team-social-item {
+    cursor: pointer;
+    display: flex;
+    color: #AFB1B8;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.team-social-item:hover {
+    background-color: #2196F3;
+    border-radius: 50%;
+    color: #FFFFFF;
 }
 
 .team-social-icons {
@@ -515,7 +537,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .clients .icon-clients+.icon-clients {
     margin-left: 30px;
-    border: 1px solid #AFB1B8;
 }
 
 .icon-clients {
@@ -563,7 +584,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    display: inline-block;
+    display: inline-block;l
     margin-top: 20px;
     margin-bottom: 9px;
 }
@@ -607,33 +628,32 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer-social-item {
     cursor: pointer;
-    margin: 0;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+    display: flex;
+    color: #AFB1B8;
     justify-content: center;
-    border: none;
+    padding: 12px;
+    border-radius: 50%;
 }
 
 .footer-social-item:hover {
     background-color: #2196F3;
+    color: #2196F3;
     fill: #ffffff;
-    display: block;
 }
 
 .join-socials {
     display: flex;
     margin-left: 70px;
+    justify-content: center;
 }
 
 .icon-footer-social {
-    /* border: 1px solid black; */
+    cursor: pointer;
     display: flex;
-    display: inline-block;
-    width: 44px;
-    height: 44px;
-    
+    color: #AFB1B8;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
 }
 
 .social-icons-footer {
