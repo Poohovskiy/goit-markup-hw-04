@@ -192,15 +192,8 @@ h1, h2, h3, h4, h5, h6, p {
     fill: var(--accent-color);
 }
 
-/* .icon-mail:hover, .icon-smartphone:hover {
-    stroke: var(--accent-color);
-    color: var(--accent-color);
-    fill: var(--accent-color);
-    /* background-color: var(--accent-color); */
-} */
-
 .icon-mail, .icon-smartphone {
-
+    fill:currentColor;
 }
 
 .phone-number, .mail-address {
@@ -432,6 +425,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
+
+
 .third {
     background-color: var(--third-background-color);
 }
@@ -477,7 +472,12 @@ h1, h2, h3, h4, h5, h6, p {
     fill: #AFB1B8;
 }
 
-.join-socials .icon-footer-social+.icon-footer-social {
+/* .join-socials .icon-footer-social+.icon-footer-social {
+    margin-left: 10px;
+    /* border: 2px solid tomato; */
+} */
+
+.team-social-list .social-list-item+.social-list-item {
     margin-left: 10px;
     /* border: 2px solid tomato; */
 }
