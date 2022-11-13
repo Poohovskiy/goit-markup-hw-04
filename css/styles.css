@@ -452,14 +452,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 30px;
 }
 
-.social-icon-team {
-    fill: #AFB1B8;
-    /* width: 20px;
-    height: 20px; */
-    background-position: center;
-    justify-content: center;
-}
-
 .team-social-list {
     padding-bottom: 30px;
 }
@@ -499,6 +491,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team-social-icons:hover {
 
+}
+
+.social-icon-team {
+    fill: #AFB1B8;
 }
 
 .team-social-icons {
