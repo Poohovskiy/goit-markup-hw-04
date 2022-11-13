@@ -533,9 +533,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.clients .icon-clients+.icon-clients {
+.clients .icon-clients-item+.icon-clients-item {
     margin-left: 30px;
 }
 
@@ -584,7 +586,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    display: inline-block;l
+    display: inline-block;
     margin-top: 20px;
     margin-bottom: 9px;
 }
